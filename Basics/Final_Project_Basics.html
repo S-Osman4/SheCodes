@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Basics Final Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Lora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lora", serif;
+        background: linear-gradient(135deg, #342145, #2d6d6d),
+          url("https://www.transparenttextures.com/patterns/xv.png");
+        background-blend-mode: overlay;
+        color: #e6e6e6;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 80%;
+        width: 700px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid #d35400;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #2b3d4f, #4a6f49),
+          url(https://www.transparenttextures.com/patterns/white-wall-3-2.png);
+        background-blend-mode: overlay;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      a {
+        text-decoration: none;
+        color: #d4af37;
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #ffee58;
+        text-decoration: underline;
+      }
+      h1,
+      h2 {
+        font-family: "MedievalSharp", cursive;
+        margin: 0;
+        padding: 10px;
+        color: #d4af37;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20px 0;
+      }
+
+      img {
+        margin-top: 20px;
+        max-width: 60%;
+        height: auto;
+        border: 5px solid #d35400;
+        border-radius: 0 100% 100% 0;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      button {
+        background: #8b0000;
+        color: #e6e6e6;
+        padding: 15px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid #e6e6e6;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      button:hover {
+        background: #a52a2a;
+        transition: 0.3s ease;
+        cursor: pointer;
+      }
+
+      .role-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0;
+        color: #d4af37;
+      }
+
+      hr {
+        margin: 40px 0;
+        border: 1px solid #d35400;
+      }
+
+      footer p {
+        font-size: 20px;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .credits {
+        font-size: 16px;
+      }
+      span {
+        font-family: "MedievalSharp", cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>So, You Want to Embark on an Epic Adventure?</h1>
+
+      <p>
+        Greetings, intrepid soul! The mystical lands of
+        <strong>Dungeons & Dragons</strong> tremble with anticipation of your
+        arrival. Whispers of prophecy speak of a hero - could it be you? Sharpen
+        your wit, steel your nerves, and prepare to write your legend across the
+        tapestry of fate.
+        <em>The quest of a lifetime begins with but a single step!</em>
+      </p>
+      <h2>I am Dungeon Master, here to lead you on this Journey!</h2>
+      <img
+        id="roleImage"
+        src="https://i.pinimg.com/originals/e9/16/9e/e9169ef9987b19227110c8960231ffa6.jpg"
+        alt="D&D Role"
+      />
+      <p id="roleDescription">
+        The threads of destiny are yours to weave. As you join our band of
+        adventurers, the very essence of your being shall crystallize into a
+        force to be reckoned with. <br />
+        Join our party and discover the role you're meant to play in this grand
+        adventure. What manner of hero shall you become?
+      </p>
+      <button id="joinButton">Embrace Your Destiny</button>
+      <hr />
+      <h2 class="role-name" id="roleName"></h2>
+    </div>
+    <footer>
+      <p>
+        Coded by
+        <a href="https://www.linkedin.com/in/shamso-osman/">Shamso Osman</a>
+        View on
+        <a href="https://github.com/S-Osman4/SheCodes/tree/main/Basics"
+          >Github</a
+        >
+      </p>
+      <p class="credits">
+        <span>Credits:</span> Images sourced from
+        <a href="https://www.pinterest.com/">Pinterest</a>.<br />
+        <span>All rights reserved.</span>
+      </p>
+    </footer>
+
+    <script>
+      let roles = [
+        {
+          name: "Barbarian",
+          image:
+            "https://i.pinimg.com/originals/a6/b4/8b/a6b48b55e6a85c1d7db3568108fb8e8e.jpg",
+          description:
+            "Feel the blood of ancient warriors course through your veins! As a Barbarian, your battle cry shakes the heavens, your axe cleaves mountains, and your indomitable spirit strikes fear into the hearts of even the mightiest foes. In the chaos of combat, you are the eye of the storm.",
+        },
+        {
+          name: "Bard",
+          image:
+            "https://i.pinimg.com/originals/41/13/fe/4113fe50b200284435da53d8c0978642.jpg",
+          description:
+            "Weave magic with melody, charm with charisma! The Bard's song can topple tyrants or raise armies from despair. Your wit is as sharp as any blade, your tales as powerful as any spell. In a world of might and magic, never underestimate the power of a perfectly timed pun.",
+        },
+        {
+          name: "Cleric",
+          image:
+            "https://i.pinimg.com/originals/93/d9/09/93d909a63f3f0cd412b754f37d74799a.jpg",
+          description:
+            "Chosen vessel of divine will! As a Cleric, your faith illuminates the darkest dungeons and your prayers can mend shattered bones or shatter unholy abominations. When evil lurks and hope fades, your unwavering conviction becomes the beacon that guides your allies through the storm.",
+        },
+        {
+          name: "Druid",
+          image:
+            "https://i.pinimg.com/originals/c1/bf/2b/c1bf2b331c4d6897dc792d3ac2c7c914.png",
+          description:
+            "Whisper to ancient oaks, roar with the might of a bear! The Druid dances between realms, one with nature's raw power. Shape the elements, commune with beasts, and unleash the primal fury of the wild. In your hands, a simple twig becomes a force of nature.",
+        },
+        {
+          name: "Fighter",
+          image:
+            "https://i.pinimg.com/originals/ca/83/80/ca838081797e51c960fe3aa169129a9e.jpg",
+          description:
+            "Living bulwark, master of arms! The Fighter stands resolute where others falter. Your weapon is an extension of your will, each strike a sonnet of destruction. Whether with sword, bow, or bare hands, you turn the tide of battle and carve your name into legend.",
+        },
+        {
+          name: "Monk",
+          image:
+            "https://i.pinimg.com/originals/b5/5b/b2/b55bb26bd83301071e862435ad7c5bd6.jpg",
+          description:
+            "Harmony of body and spirit, the Monk moves like wind and strikes like thunder! Your fists shatter stone, your steps defy gravity. Harness the mystical energy of ki to perform feats that blur the line between the possible and impossible.",
+        },
+        {
+          name: "Paladin",
+          image:
+            "https://i.pinimg.com/originals/c3/e7/55/c3e755b17f06833ad9eea374a5e272e1.jpg",
+          description:
+            "Shining crusader, shield of the innocent! The Paladin's oath is unbreakable, their resolve unshakeable. Your very presence strikes fear into the hearts of evildoers, while your allies bask in your aura of divine protection. Where darkness festers, your holy light cleanses.",
+        },
+        {
+          name: "Ranger",
+          image:
+            "https://i.pinimg.com/originals/2f/09/77/2f097700f0193bc316e6e293f70691b6.jpg",
+          description:
+            "One with the wild, guardian of the borderlands! The Ranger's arrow flies true, their steps leave no trace. You are the whisper in the woods, the unseen protector, equally at home in untamed wilds or tracking foes through twisting caverns.",
+        },
+        {
+          name: "Rogue",
+          image:
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/140/707/original/rogue.jpeg?1724442585",
+          description:
+            "Shadow incarnate, master of the unseen! The Rogue dances on the edge of danger, turning every shadow into an ally. Your fingers are quicker than the eye, your mind sharper than any blade. In a world of locks and traps, you are the skeleton key.",
+        },
+        {
+          name: "Sorcerer",
+          image:
+            "https://i.pinimg.com/originals/9c/4c/c2/9c4cc26731351d6c43cf1249d340f18b.jpg",
+          description:
+            "Living conduit of arcane might! Magic doesn't just flow through you - it is you. As a Sorcerer, reality bends to your whims, the impossible becomes child's play. Your mere presence crackles with eldritch energy, a storm of power barely contained.",
+        },
+        {
+          name: "Warlock",
+          image:
+            "https://i.pinimg.com/originals/6c/1f/18/6c1f18406cd9e1354966a1b9d06f521f.jpg",
+          description:
+            "Bound to cosmic forces beyond mortal ken! The Warlock walks a razor's edge between power and peril. Your eldritch abilities can unravel the fabric of reality, but at what cost? In the game of cosmic chess, you are both player and pawn.",
+        },
+        {
+          name: "Wizard",
+          image:
+            "https://i.pinimg.com/originals/97/06/3d/97063d4ca7f71e3a8211ee416caef3be.jpg",
+          description:
+            "Scholar of the impossible, master of the arcane! The Wizard bends reality through sheer force of will and intellect. Your spellbook is a tome of world-altering power, each incantation a key to unlocking the universe's deepest secrets. Where others see limits, you see only possibilities.",
+        },
+      ];
+
+      let joinButton = document.getElementById("joinButton");
+      let roleImage = document.getElementById("roleImage");
+      let roleName = document.getElementById("roleName");
+      let roleDescription = document.getElementById("roleDescription");
+      let userName = "";
+
+      joinButton.addEventListener("click", () => {
+        if (!userName) {
+          userName = prompt("What's your name, brave adventurer?");
+          if (userName) {
+            document.querySelector(
+              "h2"
+            ).innerText = `Welcome to the party, ${userName}!`;
+            joinButton.innerText = "Roll to Choose a Role";
+            alert(
+              `Now ${userName}, What will your destiny be? Roll to choose a role by clicking on the button.`
+            );
+          }
+        } else {
+          let randomIndex = Math.floor(Math.random() * roles.length);
+          let selectedRole = roles[randomIndex];
+          roleName.innerText = `You are a ${selectedRole.name}!`;
+          roleImage.src = selectedRole.image;
+          roleDescription.innerText = selectedRole.description;
+          alert(
+            `Congratulations, ${userName}! You are now a ${selectedRole.name}.`
+          );
+        }
+      });
+    </script>
+  </body>
+</html>
