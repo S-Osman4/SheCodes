@@ -19,7 +19,7 @@ This landing page is all about immersing users in the magical world of Dungeons 
 * **JavaScript**: Interactivity, including role selection and dynamic text updates.
 
 ## How to Use
-1. Open the [Web Page](https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/002/360/958/original/Final_Project_Basics.html?1724443702): The page is fully responsive, so you can view it on any device.
+1. Open the [Web Page](https://www.shecodes.io/cohorts/2058/projects/2360958?_gl=1*3lj2a4*_gcl_au*Mjc2ODgzODk4LjE3MjE0OTc3NDIuOTk5NTc3NzI5LjE3MjM3MzE3NjIuMTcyMzczMTc2MQ..): The page is fully responsive, so you can view it on any device.
 2. Enter Your Name: Click the "Embrace Your Destiny" button to be prompted for your name.
 3. Roll for a Role: After entering your name, click the button again to roll for a character role.
 4. Discover Your Character: The page will update to show your character role, along with a description and image.
