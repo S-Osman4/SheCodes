@@ -8,9 +8,9 @@ This landing page is all about immersing users in the magical world of Dungeons 
 
 ### Features:
 
-* Interactive Experience: Users can interact with the page by clicking a button to reveal their unique D&D character role.
-* Fantasy-Themed Design: The design includes medieval-style fonts, fantasy imagery, and a color palette that gives the page a magical feel.
-* Responsive Layout: The page is designed to look great on any device, whether it’s a desktop, tablet, or mobile phone.
+* **Interactive Experience**: Users can interact with the page by clicking a button to reveal their unique D&D character role.
+* **Fantasy-Themed Design**: The design includes medieval-style fonts, fantasy imagery, and a color palette that gives the page a magical feel.
+* **Responsive Layout**: The page is designed to look great on any device, whether it’s a desktop, tablet, or mobile phone.
 
 ## Technologies Used
 
@@ -26,6 +26,7 @@ This landing page is all about immersing users in the magical world of Dungeons 
 
 ## Credits
 **Images**: Sourced from Pinterest. All rights reserved to the original artists.
+
 **Fonts**: Provided by Google Fonts, using the "MedievalSharp" and "Lora" fonts to create a medieval-themed atmosphere.
 
 ## License
