@@ -32,3 +32,5 @@ This landing page is all about immersing users in the magical world of Dungeons 
 ## License
 This project is open-source and available under the MIT License. Feel free to fork, modify, and use it for your own projects.
 
+If you like it ❤️ it!
+
