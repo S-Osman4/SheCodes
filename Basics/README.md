@@ -1,6 +1,7 @@
 ## SheCodes Basics Final Project
 
 Welcome to my final project for the **SheCodes Basics workshop**! This project is a fun and interactive introduction to coding that takes inspiration from the epic fantasy world of Dungeons & Dragons (D&D).
+![Demo]()
 
 ## Project Overview
 
