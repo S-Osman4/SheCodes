@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SheCodes Basics AddOn</title>
+    <style>
+      body {
+        background: linear-gradient(
+            160deg,
+            #c8ebf5,
+            #d5e5f1,
+            #f5e5d1,
+            #fffae0,
+            #ffd6d6,
+            #e0e0e0
+          ),
+          url("https://www.transparenttextures.com/patterns/flowers.png");
+        background-blend-mode: multiply;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 800px;
+        background: white;
+        margin: 20px auto;
+        padding: 80px;
+        border-radius: 12px;
+        transition: background-color 0.3s;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Poppins", sans-serif;
+        color: #d60000;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 10px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 0;
+        padding-bottom: 20px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #d60000;
+        text-decoration: none;
+        transition: color 200ms ease-in-out;
+      }
+      a:hover {
+        color: #ffa500;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #d60000;
+        background: white;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 8px 12px;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #d60000;
+        color: white;
+      }
+
+      .themeButton,
+      .liveAction {
+        background-color: #121212;
+        color: white;
+        padding: 8px 16px;
+      }
+
+      .themeButton:hover,
+      .liveAction:hover {
+        color: #e0e0e0;
+        background-color: #d60000;
+      }
+
+      .one-piece-intro {
+        transition: all 200ms ease-in-out;
+      }
+      .one-piece-intro:hover {
+        transform: scale(1.2);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+      }
+
+      .grid img {
+        transition: all 200ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.5);
+      }
+
+      footer {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 400px;
+        border-radius: 8px;
+        color: #666;
+        font-size: 16px;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      body.dark-theme {
+        background: #121212;
+      }
+
+      body.dark-theme .container {
+        background: #1e1e1e;
+        color: #e0e0e0;
+      }
+
+      body.dark-theme h1,
+      body.dark-theme h2,
+      body.dark-theme h3 {
+        color: #ffa500;
+      }
+
+      .dark-theme .container a,
+      .dark-theme .container button {
+        color: #ffa500;
+        border-color: #ffa500;
+      }
+
+      .dark-theme .container a:hover {
+        color: #d60000;
+      }
+
+      .dark-theme .container button:hover {
+        background: #ffa500;
+      }
+
+      .dark-theme .themeButton {
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .dark-theme .themeButton:hover {
+        background-color: #ffa500;
+        color: #1e1e1e;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="themeButton">Dark Theme</button>
+    <button class="liveAction">Live Action</button>
+
+    <div class="container">
+      <h1>🏴‍☠️ One Piece</h1>
+      <h2>My Favorite Anime</h2>
+      <a href="#" target="_blank">
+        <img
+          src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/a249096c7812deb8c3c2c907173f3774.jpg"
+          alt=""
+          class="one-piece-intro"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://i.pinimg.com/736x/58/cc/40/58cc40a2c9f8205b31f81a4934c47832.jpg"
+          alt=""
+        />
+        <img
+          src="https://i.pinimg.com/736x/25/f0/03/25f003810a03b21b33aefcad76ee82d8.jpg"
+          alt=""
+        />
+        <img
+          src="https://i.pinimg.com/736x/d2/93/aa/d293aaf36d22d307e6ef0ab70022945f.jpg"
+          alt=""
+        />
+        <img
+          src="https://i.pinimg.com/736x/cf/8a/14/cf8a14e9c8c065687a7072afc6ca5ba8.jpg"
+          alt=""
+        />
+        <img
+          src="https://i.pinimg.com/736x/53/65/cc/5365cc21e297ec216870d5d30a0c5242.jpg"
+          alt=""
+        />
+        <img
+          src="https://i.pinimg.com/736x/e5/b6/9f/e5b69f8482ea08d03ef8a5bd17757795.jpg"
+          alt=""
+        />
+      </div>
+
+      <p>
+        Monkey D. Luffy refuses to let anyone or anything stand in the way of
+        his quest to become the king of all pirates. With a course charted for
+        the treacherous waters of the Grand Line and beyond, this is one captain
+        who'll never give up until he's claimed the greatest treasure on Earth:
+        the Legendary One Piece!
+      </p>
+
+      <h3>📖 <a href="">Read it on wikipedia</a></h3>
+
+      <button class="watch">
+        <a
+          href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece"
+          target="_blank"
+        >
+          Watch it Now!
+        </a>
+      </button>
+    </div>
+    <footer>Coded by Shamso Osman</footer>
+  </body>
+
+  <script>
+    function toggleTheme() {
+      let body = document.querySelector("body");
+      body.classList.toggle("dark-theme");
+      let themeButton = document.querySelector(".themeButton");
+      if (body.classList.contains("dark-theme")) {
+        themeButton.textContent = "Light Theme";
+      } else {
+        themeButton.textContent = "Dark Theme";
+      }
+    }
+
+    let themeButton = document.querySelector(".themeButton");
+    themeButton.addEventListener("click", toggleTheme);
+
+    let liveActionButton = document.querySelector(".liveAction");
+    let container = document.querySelector(".container");
+    let introImg = document.querySelector(".one-piece-intro");
+    let h2 = document.querySelector("h2");
+    let watchButton = document.querySelector(".watch a");
+    let gridImages = document.querySelectorAll(".grid img");
+
+    let liveActionData = {
+      buttonText: "Anime Version",
+      h2Text: "My Favorite Anime Live Action",
+      introImg:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/270/original/w1ir2d8f.png?1724872571",
+      watchLink: "https://www.netflix.com/title/80217863",
+      gridImages: [
+        "https://i.pinimg.com/564x/0a/9b/07/0a9b078044ef44e2c0554010729b92b2.jpg",
+        "https://i.pinimg.com/564x/dc/d1/52/dcd15234c923e4f09e88ae06d9ea6021.jpg",
+        "https://i.pinimg.com/736x/23/62/8e/23628e7d645461f5e89714828c35ce51.jpg",
+        "https://i.pinimg.com/564x/28/2a/7d/282a7dbb53fc5f7e5b6a01ea184cfe80.jpg",
+        "https://i.pinimg.com/564x/fe/0e/03/fe0e03974419a9b75a3f4b742f1dc3e3.jpg",
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/269/original/m48tvs0r.png?1724872532",
+      ],
+    };
+
+    function toggleLiveAction() {
+      container.classList.toggle("live-action");
+
+      if (container.classList.contains("live-action")) {
+        liveActionButton.textContent = liveActionData.buttonText;
+        h2.textContent = liveActionData.h2Text;
+        introImg.src = liveActionData.introImg;
+        watchButton.href = liveActionData.watchLink;
+
+        gridImages.forEach((img, index) => {
+          if (!img.dataset.animeSrc) {
+            img.dataset.animeSrc = img.src;
+          }
+          img.src = liveActionData.gridImages[index];
+        });
+      } else {
+        liveActionButton.textContent = "Live Action";
+        h2.textContent = "My Favorite Anime";
+        introImg.src = introImg.dataset.animeSrc;
+        watchButton.href = watchButton.dataset.animeLink;
+
+        gridImages.forEach((img) => {
+          img.src = img.dataset.animeSrc;
+        });
+      }
+    }
+
+    introImg.dataset.animeSrc = introImg.src;
+    watchButton.dataset.animeLink = watchButton.href;
+
+    liveActionButton.addEventListener("click", toggleLiveAction);
+  </script>
+</html>
