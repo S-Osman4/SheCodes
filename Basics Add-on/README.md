@@ -32,10 +32,11 @@ To view and interact with the SheCodes Basics AddOn project, follow these steps:
    - Click the "Live Action" button to switch to the live-action adaptation.
    - Click the button again to revert to the anime version.
 
-## Screenshots
+## Screenshots And Demo
+[Link to deployment](https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/002/367/709/original/Final_Basics_Addons.html?1726162443)
 1. Anime Version
 <p align="center">
-  <img src="./Assests/Anime_light.jpeg" alt="One Piece Anime Light Theme" width="45%" style="margin-right: 10px;" />
+  <img src="./Assests/Anime_light.jpeg" alt="One Piece Anime Light Theme" width="45%" style="margin-right: 20px;" />
   <img src="./Assests/Anime_dark.jpeg" alt="One Piece Anime Dark Theme" width="45%" />
 </p>
 
